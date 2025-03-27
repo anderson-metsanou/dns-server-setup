@@ -1,0 +1,15 @@
+$TTL 604800
+@   IN  SOA  omega.anderson237.com. admin.anderson237.com. (
+        2025032701  ; Serial
+        604800      ; Refresh
+        86400       ; Retry
+        2419200     ; Expire
+        604800 )    ; Negative Cache TTL
+
+; Name Server
+@   IN  NS  omega.anderson237.com.
+
+; PTR Record (Reverse Lookup)
+166 IN  PTR  omega.anderson237.com.
+166 IN  PTR  www.anderson237.com.
+166 IN  PTR  mail.anderson237.com.
